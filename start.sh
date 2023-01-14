@@ -1,7 +1,7 @@
 if [ -z $SOURCE_CODE ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/WebSubas/converter/Converter
+  git clone https://github.com/WebSubas/converter /Converter
 else
   echo "Cloning Custom Repo from $SOURCE_CODE "
   git clone $SOURCE_CODE /Converter
